@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Location Finder</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <section class="hero hero-body is-dark container">
+    <h1 class="title">BR Location Info</h1>
+    <h2 class="subtitle">Enter a zipcode to get the location info</h2>
+    <form action="" id="zipForm">
+      <div class="field">
+        <div class="control has-icons-left has-icons-right">
+          <input class="input zip is-large" type="text" placeholder="Enter ZipCode" value="">
+          <span class="icon is-small is-left">
+            <i class="fas fa-map-pin"></i>
+          </span>
+          <span class="icon is-small is-right icon-check">
+            <i class="fas fa-check"></i>
+          </span>
+          <span class="icon is-small is-right icon-remove">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <br>
+
+  <div class="container">
+    <div id="output"></div>
+  </div>
+
+</body>
+
+</html>
